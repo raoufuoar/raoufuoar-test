@@ -1,0 +1,34 @@
+I"�<h2 id="startupm"><code class="language-plaintext highlighter-rouge">startup.m</code></h2>
+
+<blockquote>
+  <p><a href="https://www.mathworks.com/help/matlab/ref/startup.html"><code class="language-plaintext highlighter-rouge">startup</code></a> executes user-specified commands when starting MATLAB®.</p>
+</blockquote>
+
+<p>Use this file to add folders to the MATLAB paths, restore the vanished figure toolbar buttons (zoom, pan, …) and set custom-defined parameters.</p>
+
+<figure class="highlight"><pre><code class="language-matlab" data-lang="matlab"><span class="c1">%% startup.m</span>
+
+<span class="c1">% add folder to MATLAB path</span>
+<span class="nb">addpath</span><span class="p">(</span><span class="nb">genpath</span><span class="p">(</span><span class="s1">'&lt;path&gt;'</span><span class="p">))</span>
+
+<span class="c1">% Since Matlab 2018b figure toolbar disappeared, this reverts the change</span>
+<span class="nb">set</span><span class="p">(</span><span class="nb">groot</span><span class="p">,</span><span class="s1">'defaultFigureCreateFcn'</span><span class="p">,</span><span class="s1">'addToolbarExplorationButtons(gcf)'</span><span class="p">);</span>
+
+<span class="c1">% Change default Colormap from parula to hot</span>
+<span class="nb">set</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="s1">'defaultFigureColormap'</span><span class="p">,</span> <span class="nb">hot</span><span class="p">)</span>
+
+<span class="c1">% define some physics</span>
+<span class="n">hc</span> <span class="o">=</span> <span class="mf">1239.84193</span><span class="p">;</span>        <span class="c1">% in eV*nm</span>
+<span class="n">c</span> <span class="o">=</span> <span class="mi">299792458</span><span class="p">;</span>          <span class="c1">% in m/s</span>
+<span class="n">e</span> <span class="o">=</span> <span class="mf">1.6021766209e-19</span><span class="p">;</span>   <span class="c1">% in C</span>
+<span class="n">a0</span> <span class="o">=</span> <span class="mf">0.52917721067e-10</span><span class="p">;</span> <span class="c1">% in m</span>
+<span class="n">me</span> <span class="o">=</span> <span class="mf">9.10938356e-31</span><span class="p">;</span>    <span class="c1">% in kg</span></code></pre></figure>
+
+<p>Here, we have also defined some physical parameters often used. Make sure you reserve those variable names and do not use them for something else in the code.</p>
+
+<h2 id="live-scripts">Live scripts</h2>
+
+<p><a href="https://www.mathworks.com/help/matlab/live-scripts-and-functions.html">Live Scripts</a> are somewhat the MATLAB-equivalent of Jupyter Notebooks. They are really useful to display the code, text, annotations and output on a single page.</p>
+
+<p class="notice--info">Note that a MATLAB kernel seems to be available in Jupyter Notebooks (see for example <a href="https://nbviewer.jupyter.org/github/Calysto/matlab_kernel/blob/master/matlab_kernel.ipynb">here</a> for a working example.</p>
+:ET

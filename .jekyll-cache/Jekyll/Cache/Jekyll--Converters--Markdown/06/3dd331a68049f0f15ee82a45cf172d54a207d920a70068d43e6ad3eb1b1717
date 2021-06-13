@@ -1,0 +1,23 @@
+I"½<style>
+.category-content a {
+    text-decoration: none;
+    color: #4183c4;
+}
+
+.category-content a:hover {
+    text-decoration: underline;
+    color: #4183c4;
+}
+</style>
+
+<main>
+    
+    
+        <h3 id="Theme">Theme</h3><li style="padding-bottom: 0.6em; list-style: none;"><a href="/notes/How-to-use-the-special-features">How to use notenote.link features on your website</a></li><li style="padding-bottom: 0.6em; list-style: none;"><a href="/notes/How-to-setup-this-site">How to setup this site</a></li>
+        <h3 id="code">code</h3><li style="padding-bottom: 0.6em; list-style: none;"><a href="/notes/LaTeX">LaTeX</a></li><li style="padding-bottom: 0.6em; list-style: none;"><a href="/notes/MATLAB">MATLAB</a></li>
+        <h3 id="CMS">CMS</h3><li style="padding-bottom: 0.6em; list-style: none;"><a href="/notes/Obsidian-integration">Obsidian integration</a></li>
+        <h3 id="markdown">markdown</h3><li style="padding-bottom: 0.6em; list-style: none;"><a href="/notes/how-markdown-is-rendered">Test page to see how the raw markdown is rendered</a></li>
+        <h3 id="Code">Code</h3><li style="padding-bottom: 0.6em; list-style: none;"><a href="/notes/python">Python</a></li><br />
+    <br />
+</main>
+:ET

@@ -1,0 +1,36 @@
+I"�<h2 id="startupm"><code class="language-plaintext highlighter-rouge">startup.m</code></h2>
+
+<blockquote>
+  <p><a href="https://www.mathworks.com/help/matlab/ref/startup.html"><code class="language-plaintext highlighter-rouge">startup</code></a> executes user-specified commands when starting MATLAB®.</p>
+</blockquote>
+
+<p>Use this file to add folders to the MATLAB paths, restore the vanished figure toolbar buttons (zoom, pan, …) and set custom-defined parameters.</p>
+
+<p>{% highlight matlab %}
+%% startup.m</p>
+
+<p>% add folder to MATLAB path
+addpath(genpath('<path>'))</path></p>
+
+<p>% Since Matlab 2018b figure toolbar disappeared, this reverts the change
+set(groot,'defaultFigureCreateFcn','addToolbarExplorationButtons(gcf)');</p>
+
+<p>% Change default Colormap from parula to hot
+set(0, 'defaultFigureColormap', hot)</p>
+
+<p>% define some physics
+hc = 1239.84193;        % in eV*nm
+c = 299792458;          % in m/s
+e = 1.6021766209e-19;   % in C
+a0 = 0.52917721067e-10; % in m
+me = 9.10938356e-31;    % in kg
+{% endhighlight %}</p>
+
+<p>Here, we have also defined some physical parameters often used. Make sure you reserve those variable names and do not use them for something else in the code.</p>
+
+<h2 id="live-scripts">Live scripts</h2>
+
+<p><a href="https://www.mathworks.com/help/matlab/live-scripts-and-functions.html">Live Scripts</a> are somewhat the MATLAB-equivalent of Jupyter Notebooks. They are really useful to display the code, text, annotations and output on a single page.</p>
+
+<p class="notice--info">Note that a MATLAB kernel seems to be available in Jupyter Notebooks (see for example <a href="https://nbviewer.jupyter.org/github/Calysto/matlab_kernel/blob/master/matlab_kernel.ipynb">here</a> for a working example.</p>
+:ET
