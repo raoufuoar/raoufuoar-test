@@ -1,6 +1,6 @@
-title: thisnotenote.link
-name: My linked notebook
-user_description: notenote.link
+title: a website
+name: a web-notebook
+user_description: my web notebook
 notes_url: "https://raoufuoar.github.io/"
 profile_pic: /assets/img/profile.png
 favicon: /assets/img/favicon.png
@@ -15,6 +15,7 @@ plugins:
   - jekyll-feed 
   - jekyll-sitemap
   - jekyll-toc
+  - jekyll-spaceship
 
 markdown: kramdown
 

@@ -438,19 +438,6 @@ This line is also a separate paragraph, but...
 This line is only separated by a single newline, so it's a separate line in the *same paragraph*.
 
 
-   
-   ---
-date: 2021-06-13
-type: dailynote
-summary: 
-Experiment: 👨‍🔬👨‍🔧🔬
-Computing: 🖥️
-Reading: 📚
-Talking: 🗣️
-Writing: ✍️
-tags:
----
-
 # 2021-06-13
 
 Sunday 13th June 2021
@@ -476,21 +463,22 @@ Using <code>notenote.link</code> with [a little bit of tweaking](https://github.
  ## Chronology
  
  
-```mermaid
+```mermaid!
 graph LR;
 
 A(2021-06-12) --> B(2021-06-13) --> C(2021-06-14);
 
-click A "/";
+click A "/talks"
 click B "/";
 click C "/";
-
 
 class A internal-link;
 class B internal-link;
 class C internal-link;
 ```
 
+
+<iframe src="https://www.google.fr" width="100%" height="500px"></iframe>
 
    
 License: CC-BY
