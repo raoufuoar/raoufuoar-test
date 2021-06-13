@@ -438,4 +438,59 @@ This line is also a separate paragraph, but...
 This line is only separated by a single newline, so it's a separate line in the *same paragraph*.
 
 
+   
+   ---
+date: 2021-06-13
+type: dailynote
+summary: 
+Experiment: 👨‍🔬👨‍🔧🔬
+Computing: 🖥️
+Reading: 📚
+Talking: 🗣️
+Writing: ✍️
+tags:
+---
+
+# 2021-06-13
+
+Sunday 13th June 2021
+15:13 PM
+
+
+- [ ] Handwriting OCR
+	- [ ] Real-time
+	- [ ] 
+- [ ] Bregman, Utopies et les Humains sont bons
+- [ ] le triangle des Bermudes debunked par les assureurs
+- [ ] Fouloscopie, Comment sommes-nous connectés
+- [ ] Fouloscopie, Comment fonctionne un essaim de robots
+- [ ] Fouloscopie, les Foules de synthèse
+- [ ] Nerd Nite, Metric System lecture
+
+
+
+
+## Publishing Obsidian on Github Pages
+
+Using <code>notenote.link</code> with [a little bit of tweaking](https://github.com/Maxence-L/notenote.link/issues/5#issuecomment-762508069) this can be done.
+ ## Chronology
+ 
+ 
+```mermaid
+graph LR;
+
+A(2021-06-12) --> B(2021-06-13) --> C(2021-06-14);
+
+click A "/";
+click B "/";
+click C "/";
+
+
+class A internal-link;
+class B internal-link;
+class C internal-link;
+```
+
+
+   
 License: CC-BY
