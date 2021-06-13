@@ -477,6 +477,37 @@ class B internal-link;
 class C internal-link;
 ```
 
+
+```mermaid
+graph LR;
+
+A(2021-06-12) --> B(2021-06-13) --> C(2021-06-14);
+
+click A "/talks"
+click B "/";
+click C "/";
+
+class A internal-link;
+class B internal-link;
+class C internal-link;
+```
+
+
+
+
+<div class="mermaid">
+graph LR;
+
+A(2021-06-12) --> B(2021-06-13) --> C(2021-06-14);
+
+click A "/talks"
+click B "/";
+click C "/";
+
+class A internal-link;
+class B internal-link;
+class C internal-link;
+</div>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Br5U38OheyM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
