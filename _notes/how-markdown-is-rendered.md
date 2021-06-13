@@ -468,7 +468,7 @@ graph LR;
 
 A(2021-06-12) --> B(2021-06-13) --> C(2021-06-14);
 
-click A "/talks"
+click A "https://google.fr"
 click B "/";
 click C "/";
 
@@ -500,14 +500,11 @@ graph LR;
 
 A(2021-06-12) --> B(2021-06-13) --> C(2021-06-14);
 
-click A "/talks"
+click A "https://www.google.com";
 click B "/";
 click C "/";
-
-class A internal-link;
-class B internal-link;
-class C internal-link;
 </div>
+<script async src="https://unpkg.com/mermaid@8.2.3/dist/mermaid.min.js"></script>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Br5U38OheyM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 

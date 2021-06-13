@@ -154,9 +154,7 @@
            });
 </script>
 
-
-    <script src="%E2%80%9Dhttps://cdnjs.cloudflare.com/ajax/libs/mermaid/8.3.1/mermaid.min.js%22">
-</script>
+<script async src="https://unpkg.com/mermaid@8.2.3/dist/mermaid.min.js"></script>
   <script>mermaid.initialize({startOnLoad:true});</script>
 
 </header>
@@ -562,6 +560,20 @@ Some text here that needs to be enlarged
 <h3 id="10-other-implicit-features">10. Other implicit features.</h3>
 
 <p>Features like backlinks, context menu, related posts, page preview are available by default as they are implemented using CSS and JS. So, you don't have to do anything other than write as you would normally to make use of those features.</p>
+
+
+<div class="mermaid">
+graph LR;
+  A--&gt;B;
+  click A "../notes/how-markdown-is-rendered"
+</div>
+<script async="" src="https://unpkg.com/mermaid@8.2.3/dist/mermaid.min.js"></script>
+
+
+<pre><code class="language-mermaid">graph LR;
+  A--&gt;B;
+  click A "../notes/how-markdown-is-rendered"
+</code></pre>
 
 </div>
 <hr>

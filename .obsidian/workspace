@@ -1,0 +1,93 @@
+{
+  "main": {
+    "id": "52d3ea26d296c5a6",
+    "type": "split",
+    "children": [
+      {
+        "id": "8118d819f03c489d",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "_notes/How to use the special features.md",
+            "mode": "preview"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "54f584a807a2e0ca",
+    "type": "split",
+    "children": [
+      {
+        "id": "9d27c27123a95934",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0451ec3ff74b7859",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "0159ddeb71ac1aa3",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "3459ef097c9024c0",
+    "type": "split",
+    "children": [
+      {
+        "id": "c2e12f9bc5655e99",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f32ed849af074c08",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "_notes/How to use the special features.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "8118d819f03c489d",
+  "lastOpenFiles": [
+    "_notes/How to use the special features.md"
+  ]
+}

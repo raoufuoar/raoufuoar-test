@@ -200,8 +200,17 @@ Why use seasons ? Since this theme is a form of 'digital garden', I thought it w
 
 Features like backlinks, context menu, related posts, page preview are available by default as they are implemented using CSS and JS. So, you don't have to do anything other than write as you would normally to make use of those features.
 
+<html>
 <div class="mermaid">
 graph LR;
   A-->B;
+  click A "../notes/how-markdown-is-rendered"
 </div>
 <script async src="https://unpkg.com/mermaid@8.2.3/dist/mermaid.min.js"></script>
+</html>
+
+```mermaid
+graph LR;
+  A-->B;
+  click A "../notes/how-markdown-is-rendered"
+```
